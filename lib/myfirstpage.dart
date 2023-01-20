@@ -18,7 +18,9 @@ class MyFirstPage extends StatelessWidget {
             const Text("text"),
             const Text("text"),
             const Text("text"),
-            Image.asset('assets/images/tiger.jpg'),
+            Image.asset(
+              'assets/images/tiger.jpg',
+            ),
           ],
         ),
       ),
