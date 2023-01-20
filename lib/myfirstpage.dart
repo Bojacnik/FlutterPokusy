@@ -10,12 +10,17 @@ class MyFirstPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Column(
-        children: const [
-          Center(
-            child: Text("text"),
-          ),
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            const Text("text"),
+            const Text("text"),
+            const Text("text"),
+            const Text("text"),
+            const Text("text"),
+            Image.asset('assets/images/tiger.jpg'),
+          ],
+        ),
       ),
     );
   }
