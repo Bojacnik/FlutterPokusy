@@ -221,10 +221,6 @@ lib/injection_container.config.dart
 
 # Workspace
 *.code-workspace
-linux/flutter/generated_plugin_registrant.cc
-linux/flutter/generated_plugin_registrant.h
-linux/flutter/generated_plugins.cmake
+linux/flutter/generated*.*
+windows/flutter/generated*.*
 macos/Flutter/GeneratedPluginRegistrant.swift
-windows/flutter/generated_plugin_registrant.cc
-windows/flutter/generated_plugin_registrant.h
-windows/flutter/generated_plugins.cmake
